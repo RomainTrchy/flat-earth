@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Flat Earth is Wrong</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="icon" href="../images/planete-terre.png">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <canvas id="Matrix"></canvas>
+        <script src="../js/matrix.js"></script>
+        <header>
+            <a href="index.html" class="logo">Flat Earth is Wrong</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="../images/stars.png" id="stars">
+            <h2 id="text">Earth</h2>
+            <img src="../images/planet.png" id="planet">
+        </section>
+        <script>
+            let stars = document.getElementById('stars');
+            let planet = document.getElementById('planet');
+            let text = document.getElementById('text');
+            let header = document.querySelector('header');
+
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                stars.style.left = value * 0.25 + 'px';
+                planet.style.left = value * 0 + 'px';
+                text.style.marginRight = value * 4 + 'px';
+                header.style.top = value * 0.5 + 'px';
+            })
+        </script>
+    </body>
+</html>

@@ -55,6 +55,7 @@ header ul li a{
 header ul li a:hover, header ul li a.active{
     background: #fff;
     color: #2b1055;
+    cursor: pointer;
 }
 section:not(.section){
     position:relative;

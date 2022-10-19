@@ -10,7 +10,6 @@ canvas{
     overflow: hidden;
     position: absolute;
     mix-blend-mode: lighten;
-    opacity: 0.5;
 }
 body{
     min-height: 100vh;

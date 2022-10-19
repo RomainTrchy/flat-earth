@@ -343,7 +343,7 @@ footer {
   color: white;
   text-decoration: none;
   margin-bottom: 10px;
-  display: block;
+  position: relative;
   transition: 0.3s ease;
 }
 .col .links a:before{
@@ -355,4 +355,8 @@ footer {
   height: 16px;
   background-color: white;
   transition: 0.3s ease;
+  opacity: 0;
+}
+.col .links a:hover:before{
+  opacity: 1;
 }

@@ -372,3 +372,15 @@ footer {
   font-size: 1.5rem;
   margin-right: 10px;
 }
+
+/* Responsive design */
+
+@media screen and (max-width: 1000px){
+  .row{
+    flex-direction: column;
+  }
+  .col{
+    min-width: 0;
+    margin-bottom: 30px;
+  }
+}

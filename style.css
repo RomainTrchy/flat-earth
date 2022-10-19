@@ -167,6 +167,11 @@ section img#planet{
     padding: 100px 0 300px;
 }
 
+.section p{
+    font-size: 1em;
+    color: black;
+}
+
 .img-article {
   width: 100%;
 }

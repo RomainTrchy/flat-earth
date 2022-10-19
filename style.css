@@ -387,16 +387,12 @@ footer {
 }
 
 @media(max-width: 600px){
-  .col .logo{
-    width: 80px;
+  .row{
+    flex-direction: column;
   }
-  .col h3{
-    font-size: 1.2rem;
-  }
-  .col .social a i{
-    font-size: 1.2rem;
-  }
-  .col .contact-details i{
-    font-size: 1.2rem;
+  .col{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
   }
 }

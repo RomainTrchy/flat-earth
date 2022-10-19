@@ -275,8 +275,7 @@ color: white;
 }
 
 footer {
-  background-color:purple;
-  position: relative;
+  background: linear-gradient(black, #2c0652);  position: relative;
   width: 100%;
   min-height: 350px;
   padding: 3rem 1rem;
@@ -304,7 +303,7 @@ footer {
 }
 
 .col .logo{
-  width: 100px;
+  width: 50px;
   margin-bottom: 25px;
 }
 
@@ -362,15 +361,7 @@ footer {
 }
 .col .links a:hover{
   transform: translateX(-8px);
-  color: #ff0000;
-}
-.col .contact-details{
-  justify-content: space-between;
-}
-.col .contact-details i{
-  color: white;
-  font-size: 1.5rem;
-  margin-right: 10px;
+  color: #2c0652;
 }
 
 /* Responsive design */

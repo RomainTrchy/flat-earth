@@ -114,6 +114,10 @@ section img#planet{
     color: #fff;
     margin-bottom: 20px;
 }
+.sec h2:not(:first-child){
+    margin-top: 50px;
+  padding-top: 100px;
+}
 .sec p{
     font-size: 1.5em;
     color: #fff;

@@ -6,6 +6,11 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
+
+ul{
+  list-style: none;
+}
+
 canvas{
     overflow: hidden;
     position: absolute;
@@ -339,5 +344,15 @@ footer {
   text-decoration: none;
   margin-bottom: 10px;
   display: block;
+  transition: 0.3s ease;
+}
+.col .links a:before{
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  width: 3px;
+  height: 16px;
+  background-color: white;
   transition: 0.3s ease;
 }

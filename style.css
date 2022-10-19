@@ -115,7 +115,7 @@ section img#planet{
     margin-bottom: 20px;
 }
 .sec h2:not(:first-child){
-    margin-top: 50px;
+  margin-top: 50px;
   padding-top: 100px;
 }
 .sec p{
@@ -164,7 +164,6 @@ section img#planet{
 
 .section{
     background: black;
-    padding: 100px 0 300px;
 }
 
 .section p{

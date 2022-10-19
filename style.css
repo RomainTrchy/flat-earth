@@ -309,3 +309,17 @@ footer {
   position: relative;
   cursor: pointer;
 }
+
+.col h3::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 3px;
+  background-color: white;
+  transition: 0.3s ease;
+}
+.col h3::hover::after{
+  width: 30px;
+}

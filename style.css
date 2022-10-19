@@ -375,12 +375,28 @@ footer {
 
 /* Responsive design */
 
-@media screen and (max-width: 1000px){
+@media(max-width: 900px){
   .row{
     flex-direction: column;
   }
   .col{
-    min-width: 0;
+    width: 100%;
+    text-align: left;
     margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 600px){
+  .col .logo{
+    width: 80px;
+  }
+  .col h3{
+    font-size: 1.2rem;
+  }
+  .col .social a i{
+    font-size: 1.2rem;
+  }
+  .col .contact-details i{
+    font-size: 1.2rem;
   }
 }

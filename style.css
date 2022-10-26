@@ -41,27 +41,6 @@ header .logo {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-header ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-header ul li {
-  list-style: none;
-  margin: 20px;
-}
-header ul li a {
-  text-decoration: none;
-  padding: 6px 15px;
-  color: #fff;
-  border-radius: 20px;
-}
-header ul li a:hover,
-header ul li a.active {
-  background: #fff;
-  color: #2b1055;
-  cursor: pointer;
-}
 section:not(.section) {
   position: relative;
   width: 100%;

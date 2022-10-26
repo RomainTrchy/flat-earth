@@ -398,9 +398,7 @@ footer {
   }
 }
 
-/* Style all the form present in html/index.html */
-
-form {
+.pageclip-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -409,9 +407,7 @@ form {
   height: 100%;
 }
 
-/* Style the input fields */
-
-input {
+.pageclip-form input {
   width: 100%;
   height: 40px;
   margin: 10px 0;
@@ -421,9 +417,7 @@ input {
   outline: none;
 }
 
-/* Style the submit button */
-
-button {
+.pageclip-form__submit {
   width: 100%;
   height: 40px;
   margin: 10px 0;

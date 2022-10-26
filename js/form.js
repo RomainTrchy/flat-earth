@@ -7,7 +7,7 @@
     m = {
       _base: e,
       _successTemplate:
-        '<div class="pageclip-form__success__message">Thank you!</div>',
+        '<div class="pageclip-form__success__message">Merci!</div>',
       cssBase: "pageclip-form",
       form: function (n, r) {
         if (((r = r || {}), null == n))

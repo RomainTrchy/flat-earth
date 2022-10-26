@@ -435,3 +435,8 @@ button {
   cursor: pointer;
 }
 
+.pageclip-form__success__message {
+  background: none;
+  color: #2c0652;
+  animation: appear 0.5s ease-in-out;
+}

@@ -69,6 +69,7 @@ section img:not(.img-article) {
 }
 
 section img#planet {
+  filter: drop-shadow(10px -10px 22px cyan);
   z-index: 10;
 }
 #text {

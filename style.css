@@ -90,6 +90,7 @@ section img#planet {
   background: black;
 }
 .sec h2 {
+  border-bottom: 5px solid #2C0652;
   font-size: 3em;
   color: #fff;
   margin-bottom: 20px;

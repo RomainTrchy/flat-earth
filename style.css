@@ -155,6 +155,14 @@ section img#planet {
 .img-article {
   width: 100%;
 }
+
+.img-text{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
 .btn {
   text-transform: uppercase;
   background: transparent;

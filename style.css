@@ -67,6 +67,7 @@ section img:not(.img-article) {
   object-fit: cover;
   pointer-events: none;
 }
+
 section img#planet {
   z-index: 10;
 }
@@ -90,7 +91,7 @@ section img#planet {
   background: black;
 }
 .sec h2 {
-  border-bottom: 5px solid #2C0652;
+  border-bottom: 5px solid #2c0652;
   font-size: 3em;
   color: #fff;
   margin-bottom: 20px;
@@ -156,16 +157,16 @@ section img#planet {
   width: 100%;
 }
 
-.img-text{
+.img-text {
   border-radius: 10px;
-  display:flex;
+  display: flex;
   margin: 20px auto;
   margin-bottom: 0px;
   text-align: center;
   width: 30%;
 }
 
-.img-text:hover{
+.img-text:hover {
   transform: scale(1.1);
   transition: all 0.5s ease;
 }

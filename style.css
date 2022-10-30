@@ -85,6 +85,7 @@ section img#planet {
 
 .icon-scroll,
 .icon-scroll:before {
+  z-index: 1000;
   position: absolute;
   left: 50%;
 }
@@ -112,13 +113,15 @@ section img#planet {
   animation-name: scroll;
 }
 
-@keyframes scroll
-  0%
+@keyframes scroll {
+  0% {
     opacity: 1;
-  100%
+  }
+  100% {
     opacity: 0;
-    transform: translateY(46px);
-
+    transform: translateY(50px);
+  }
+}
 
 .sec {
   position: relative;

@@ -165,6 +165,11 @@ section img#planet {
   width: 30%;
 }
 
+.img-text:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
 .btn {
   text-transform: uppercase;
   background: transparent;

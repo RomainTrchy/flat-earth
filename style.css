@@ -70,6 +70,7 @@ section img:not(.img-article) {
 
 section img#planet {
   filter: drop-shadow(10px -10px 120px purple);
+  filter: drop-shadow(inset   10px white);
   z-index: 10;
 }
 #text {
